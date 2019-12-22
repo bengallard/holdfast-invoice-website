@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Layout from './hoc/Layout/Layout'
+
+import HeroImage from './components/HeroImage/HeroImage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <HeroImage />
+      <hr />
+
+      <form>
+          <h3>Contact</h3>
+          <div>
+            <div>Name*</div>
+            <input type='text' />
+          </div>
+          <div>
+            <div>Email*</div>
+            <input type='text' />
+          </div>
+          <p>
+            <div>Message*</div>
+            <input type='text' />
+          </p>
+          
+          <hr />
+          <button>Submit</button>
+      </form>
+    </Layout>
   );
 }
 
