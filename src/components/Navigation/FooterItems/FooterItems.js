@@ -6,7 +6,7 @@ import FooterItem from './FooterItem/FooterItem'
 const footerItems = (props) => (
     <ul className={classes.FooterItems}>
         <FooterItem>Home</FooterItem>
-        <FooterItem>About Us</FooterItem>
+        <FooterItem>Our Story</FooterItem>
         <FooterItem>Contact Us</FooterItem>
         <FooterItem>Privacy Policy</FooterItem>
     </ul>
