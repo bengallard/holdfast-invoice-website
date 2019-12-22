@@ -1,0 +1,14 @@
+import React from 'react'
+
+import classes from './FooterItem.module.css'
+
+const FooterItem = (props) => (
+    <li className={classes.FooterItem}>
+        <a 
+            href={props.link}
+            className={props.active ? classes.active : null}>{props.children}
+        </a>
+    </li>
+)
+
+export default FooterItem

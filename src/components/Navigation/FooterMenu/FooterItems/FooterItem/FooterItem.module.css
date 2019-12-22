@@ -1,0 +1,37 @@
+.FooterItem {
+    margin: 2px 0;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+.FooterItem a {
+    color: lightgray;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.FooterItem a:hover,
+.FooterItem a:active,
+.FooterItem a.active {
+    color: steelblue;
+}
+
+@media (min-width: 500px) {
+    .FooterItem {
+        margin: 2px 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+
+    .FooterItem a {
+        color: lightgray;
+        height: 100%;
+        padding: 0 0;
+    }
+}

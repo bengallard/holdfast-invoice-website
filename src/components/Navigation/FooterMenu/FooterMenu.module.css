@@ -1,0 +1,9 @@
+.FooterMenu {
+
+}
+
+@media (max-width: 499px) {
+    .FooterMenu {
+        display: none;
+    }
+}

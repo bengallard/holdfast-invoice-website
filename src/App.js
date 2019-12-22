@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from './hoc/Layout/Layout'
 
 import HeroImage from './components/HeroImage/HeroImage'
+import FooterMenu from './components/Navigation/FooterMenu/FooterMenu'
 
 function App() {
   return (
@@ -24,10 +25,13 @@ function App() {
             <div>Message*</div>
             <input type='text' />
           </div>
-          
-          <hr />
+          <p></p>
           <button>Submit</button>
+          <p></p>
       </form>
+      <hr />
+
+      <FooterMenu />
     </Layout>
   );
 }

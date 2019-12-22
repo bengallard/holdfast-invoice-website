@@ -17,10 +17,6 @@
     height: 100%;
 }
 
-.AppStoreButton {
-    height: 25%;
-}
-
 @media (max-width: 499px) {
     .DesktopOnly {
         display: none;
