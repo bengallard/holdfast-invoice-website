@@ -2,7 +2,7 @@ import React from 'react'
 
 import classes from './FooterItem.module.css'
 
-const FooterItem = (props) => (
+const footerItem = (props) => (
     <li className={classes.FooterItem}>
         <a 
             href={props.link}
@@ -11,4 +11,4 @@ const FooterItem = (props) => (
     </li>
 )
 
-export default FooterItem
+export default footerItem

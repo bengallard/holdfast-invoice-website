@@ -3,7 +3,7 @@ import React from 'react'
 import classes from './FooterMenu.module.css'
 import FooterItems from '../FooterItems/FooterItems'
 
-const FooterMenu = (props) => (
+const footerMenu = (props) => (
     <div className={classes.FooterMenu}>
         <nav>
             <FooterItems />
@@ -11,4 +11,4 @@ const FooterMenu = (props) => (
     </div>
 )
 
-export default FooterMenu
+export default footerMenu

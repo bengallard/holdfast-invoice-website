@@ -7,7 +7,7 @@ import NavigationItems from '../NavigationItems/NavigationItems'
 import FooterItems from '../FooterItems/FooterItems'
 import Backdrop from '../UI/Backdrop/Backdrop'
 
-const SideDrawer = (props) => {
+const sideDrawer = (props) => {
     let attachedClasses = [classes.SideDrawer, classes.Close]
     if (props.open) {
         attachedClasses = [classes.SideDrawer, classes.Open]
@@ -31,4 +31,4 @@ const SideDrawer = (props) => {
     )
 }
 
-export default SideDrawer
+export default sideDrawer

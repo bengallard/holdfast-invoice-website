@@ -3,7 +3,7 @@ import React from 'react'
 import classes from './FooterItems.module.css'
 import FooterItem from './FooterItem/FooterItem'
 
-const FooterItems = (props) => (
+const footerItems = (props) => (
     <ul className={classes.FooterItems}>
         <FooterItem>Home</FooterItem>
         <FooterItem>About Us</FooterItem>
@@ -12,4 +12,4 @@ const FooterItems = (props) => (
     </ul>
 )
 
-export default FooterItems
+export default footerItems
