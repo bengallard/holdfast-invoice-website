@@ -12,8 +12,6 @@ class Layout extends Component {
     }
 
     sideDrawToggledHandler = () => {
-        console.log('toggle side drawer');
-        
         this.setState((prevState) => {
             return { showSideDrawer: !prevState.showSideDrawer }
         } )
@@ -21,8 +19,6 @@ class Layout extends Component {
 
     sideDrawClosedHandler = () => {
         this.setState({ showSideDrawer: false })
-        console.log('close side drawer');
-        
     }
 
     render() {
