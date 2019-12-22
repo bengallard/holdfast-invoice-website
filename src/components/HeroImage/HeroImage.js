@@ -6,7 +6,7 @@ import classes from './HeroImage.module.css'
 const heroImage = (props) => (
     <div className={classes.HeroImage}>
         <img src={image} alt="infinity-invoice-hero" />
-        <h1>The ultimate in appointment and group-based-client invoicing</h1>
+        <h1 className={classes.HeroText}>Client Appointment Invoicing Software for iOS</h1>
     </div>
 )
 
