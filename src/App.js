@@ -19,10 +19,11 @@ function App() {
             <div>Email*</div>
             <input type='text' />
           </div>
-          <p>
+          <div>
+            <p></p>
             <div>Message*</div>
             <input type='text' />
-          </p>
+          </div>
           
           <hr />
           <button>Submit</button>
