@@ -5,14 +5,14 @@
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 0;
+    padding: 1px 0;
     box-sizing: border-box;
     cursor: pointer;
 }
 
 .DrawerToggle div {
     width: 90%;
-    height: 9%;
+    height: 15%;
     background-color: steelblue;
     border-radius: 10px;
 }
