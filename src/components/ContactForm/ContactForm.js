@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import classes from './ContactForm.module.css'
 
-class ContactForm extends Component {
-    render() {
-        return (
-            <div className={classes.ContactForm}>
+const ContactForm = (props) => (
+    <div className={classes.ContactForm}>
                 <form>
                     <h3>Contact Us</h3>
                     <div>
@@ -26,8 +24,6 @@ class ContactForm extends Component {
                     <p></p>
                 </form>
             </div>
-        )
-    }
-}
+)
 
 export default ContactForm
