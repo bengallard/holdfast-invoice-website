@@ -1,0 +1,25 @@
+.Hero {
+    margin: auto;
+}
+
+.Hero img {
+    width: 100%;
+}
+
+.Hero h2 {
+    margin: 30px 10% 0 10%;
+    text-align: left;
+}
+
+.Hero p {
+    margin: 20px 10% 0 10%;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.AppStoreButton {
+    display: block;
+    margin: 30px 10% 0 10%;
+    height: auto;
+    width: 100px;
+}
