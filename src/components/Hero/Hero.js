@@ -13,7 +13,7 @@ const hero = (props) => (
         <p>We've created an app that takes care of your invoicing for you, utilising a simple, no fuss user interface making invoicing fast.</p>
         <p>Tracking your invoices is fast and easy with built-in email and invoice management.</p>
         <div className={classes.AppStoreButton}>
-            <AppStoreButton />
+            <AppStoreButton link="https://apps.apple.com/app/holdfast-invoice/id1478543802?ls=1" />
         </div>
     </div>
 )
