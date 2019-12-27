@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from './hoc/Layout/Layout'
 
-import HeroImage from './components/HeroImage/Hero'
+import Hero from './components/Hero/Hero'
 import ContactForm from './components/ContactForm/ContactForm'
 import FooterMenu from './components/Navigation/FooterMenu/FooterMenu'
 
 function App() {
   return (
     <Layout>
-      <HeroImage />
+      <Hero />
       <ContactForm />
       <FooterMenu />
     </Layout>
