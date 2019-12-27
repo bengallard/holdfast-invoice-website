@@ -1,5 +1,21 @@
 .FooterMenu {
-    margin: 0 3%;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.FooterMenu cite {
+    font-size: 0.8rem;
+    color: lightgray;
+    display: block;
+}
+
+.AppStoreButton {
+    display: block;
+    height: 35px;
+    width: auto;
 }
 
 @media (max-width: 499px) {
