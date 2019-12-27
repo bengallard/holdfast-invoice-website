@@ -6,11 +6,10 @@
     flex-flow: column;
     align-items: center;
     height: 100%;
+    width: auto;
 }
 
-.AppStoreButton {
-    height: 25px;
-}
+
 
 @media (min-width: 500px) {
     .NavigationItems {

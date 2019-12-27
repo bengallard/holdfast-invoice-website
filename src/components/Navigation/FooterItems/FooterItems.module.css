@@ -4,7 +4,6 @@
     list-style: none;
     display: flex;
     flex-flow: column;
-    align-items: flex-end;
     text-align: right;
     bottom: 0;
     right: 0;
@@ -13,7 +12,7 @@
 
 @media (min-width: 500px) {
     .FooterItems {
-        align-items: flex-end;
+        margin: 0;
         position: relative;
     }
 }
