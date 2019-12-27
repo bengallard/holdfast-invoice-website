@@ -6,3 +6,7 @@
 .AppStoreButton img {
     height: 100%;
 }
+
+.AppStoreButton:hover {
+    cursor: pointer;
+}
