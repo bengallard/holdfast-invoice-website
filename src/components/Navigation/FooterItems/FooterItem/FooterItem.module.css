@@ -18,4 +18,5 @@
 .FooterItem a:active,
 .FooterItem a.active {
     color: dimgray;
+    cursor: pointer;
 }
