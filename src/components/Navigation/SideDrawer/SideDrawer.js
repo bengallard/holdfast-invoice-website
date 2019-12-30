@@ -23,11 +23,9 @@ const sideDrawer = (props) => {
                 <nav>
                     <NavigationItems />
                 </nav>
-                <div className={classes.AppStoreButton}>
-                    <AppStoreButton link="https://apps.apple.com/app/holdfast-invoice/id1478543802?ls=1" />
-                </div>
-                <nav>
+                <nav className={classes.AppStoreButton}>
                     <FooterItems />
+                    <AppStoreButton link="https://apps.apple.com/app/holdfast-invoice/id1478543802?ls=1" />
                 </nav>
             </div>
         </Aux>

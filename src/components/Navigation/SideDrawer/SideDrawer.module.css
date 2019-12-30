@@ -23,15 +23,15 @@
 }
 
 .Logo {
-    height: 18%;
+    height: 135px;
     max-width: 100%;
 }
 
 .AppStoreButton {
-    margin: 30px 0;
-    padding: 0;
     display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-    max-height: 5%;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding: 0;
+    height: 35px;
 }
+

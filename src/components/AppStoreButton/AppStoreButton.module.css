@@ -5,6 +5,7 @@
 
 .AppStoreButton img {
     height: 100%;
+    width: auto;
 }
 
 .AppStoreButton:hover {
