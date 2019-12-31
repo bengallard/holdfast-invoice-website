@@ -1,6 +1,7 @@
 import React from 'react'
 
 import classes from './About.module.css'
+import NewsletterForm from '../../Form/NewsletterForm/NewsletterForm'
 import FooterMenu from '../../Navigation/FooterMenu/FooterMenu'
 
 const about = (props) => (
@@ -12,9 +13,8 @@ const about = (props) => (
             <p>Designed specifically for Personal Trainers, Yoga Instructors, Massage Therapists and any appointment based businesses.</p>
             <p>We've created an app that takes care of your invoicing for you, utilising a simple, no fuss user interface making invoicing fast.</p>
             <p>Tracking your invoices is fast and easy with built-in email and invoice management.</p>
-            
-            
         </div>
+        <NewsletterForm />
         <FooterMenu />
     </div>
     
