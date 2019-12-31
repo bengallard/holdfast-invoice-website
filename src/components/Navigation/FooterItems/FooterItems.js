@@ -7,6 +7,7 @@ const footerItems = (props) => (
     <ul className={classes.FooterItems}>
         <FooterItem link="/" exact>Home</FooterItem>
         <FooterItem link="/about-us">Our Story</FooterItem>
+        <FooterItem link="/careers">Careers</FooterItem>
         <FooterItem link="/contact-us">Contact Us</FooterItem>
         <FooterItem link="/privacy-policy">Privacy Policy</FooterItem>
     </ul>
