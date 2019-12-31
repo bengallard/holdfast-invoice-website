@@ -1,8 +1,8 @@
 import React from 'react'
 
 import classes from './PrivacyPolicy.module.css'
-import Aux from '../../hoc/Aux/Aux'
-import FooterMenu from '../Navigation/FooterMenu/FooterMenu'
+import Aux from '../../../hoc/Aux/Aux'
+import FooterMenu from '../../Navigation/FooterMenu/FooterMenu'
 
 const privacyPolicy = (props) => (
     <Aux>

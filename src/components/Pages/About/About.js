@@ -1,7 +1,7 @@
 import React from 'react'
 
 import classes from './About.module.css'
-import FooterMenu from '../Navigation/FooterMenu/FooterMenu'
+import FooterMenu from '../../Navigation/FooterMenu/FooterMenu'
 
 const about = (props) => (
     <div>
