@@ -1,12 +1,12 @@
 .ContactForm {
-    width: 50%;
+    width: 60%;
     margin: 60px 0 0 10%;
 }
 
 .ContactForm input {
     width: 100%;
     height: 30px;
-    margin: 5px 0 10px;
+    margin: 0;
     border: none;
     border-bottom: steelblue solid 2px;
     font-size: 1rem;
@@ -14,12 +14,17 @@
 
 .ContactForm button {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     height: 40px;
-    border-style: none;
-    background-color: steelblue;
-    color: white;
+    border: 2px solid steelblue;
+    background-color: white;
+    color: steelblue;
     width: 100%;
     margin: 20px 0;
     border-radius: 50px;
+}
+
+.ContactForm button:hover {
+    background-color: steelblue;
+    color: white;
 }
