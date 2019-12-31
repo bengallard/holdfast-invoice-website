@@ -2,6 +2,7 @@ import React from 'react'
 
 import classes from './PrivacyPolicy.module.css'
 import Aux from '../../../hoc/Aux/Aux'
+import ContactForm from '../../Form/ContactForm/ContactForm'
 import FooterMenu from '../../Navigation/FooterMenu/FooterMenu'
 
 const privacyPolicy = (props) => (
@@ -106,6 +107,7 @@ const privacyPolicy = (props) => (
             <p>By email: <a href="holdfastinvoice@gmail.com">holdfastinvoice@gmail.com</a></p>
             <p>By visiting this page on our website: <a href="https://www.holdastinvoice.com/contact-us/">https://www.holdastinvoice.com/contact-us/</a></p>
         </div>
+        <ContactForm />
         <FooterMenu />
     </Aux>
     
