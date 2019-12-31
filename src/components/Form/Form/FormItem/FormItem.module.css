@@ -1,0 +1,14 @@
+.FormItem input {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto 10px;
+    padding: 0;
+    border: none;
+    border-bottom: steelblue solid 2px;
+    font-size: 1rem;
+}
+
+.FormItem h5 {
+    margin: 0;
+    padding: 0;
+}
