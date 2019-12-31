@@ -6,8 +6,8 @@ import FormItem from '../Form/FormItem/FormItem'
 
 const NewsletterForm = (props) => {
     let formItems = [
-        <FormItem inputType="input" type="text" title="Name" required />,
-        <FormItem inputType="input" type="email" title="Email" required />,
+        <FormItem elementType="input" type="text" title="Name" required />,
+        <FormItem elementType="input" type="email" title="Email" required />,
     ]
     const title = "Want to stay in the know?"
     const subtitle = "Sign-up to our newsletter and recieve occasional updates and tips!"

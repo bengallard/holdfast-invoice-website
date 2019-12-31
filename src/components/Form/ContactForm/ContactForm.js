@@ -6,9 +6,9 @@ import FormItem from '../Form/FormItem/FormItem'
 
 const contactForm = (props) => {
     let formItems = [
-        <FormItem inputType="input" type="text" title="Name" required />,
-        <FormItem inputType="input" type="email" title="Email" required />,
-        <FormItem inputType="textarea" type="text" title="Message" required />
+        <FormItem elementType="input" type="text" title="Name" required />,
+        <FormItem elementType="input" type="email" title="Email" required />,
+        <FormItem elementType="textarea" type="text" title="Message" required />
     ]
     const title = "Have a question?"
     const subtitle = "Let us know how we're doing! Feel free to leave your feedback or ask a question here."
