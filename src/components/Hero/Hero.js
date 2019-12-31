@@ -5,9 +5,9 @@ import classes from './Hero.module.css'
 import AppStoreButton from '../AppStoreButton/AppStoreButton'
 
 const hero = (props) => (
-    <div>
+    <div className={classes.Hero}>
         <img className={classes.HeroImage} src={image} alt="infinity-invoice-hero" />
-        <div className={classes.Hero}>
+        <div className={classes.Text}>
             <h2>Client Appointment Invoicing Software for iOS</h2>
             <p>Holdfast Invoice is optimised for your appointment and group-client based small business.</p>
             <p>Designed specifically for Personal Trainers, Yoga Instructors, Massage Therapists and any appointment based businesses.</p>
