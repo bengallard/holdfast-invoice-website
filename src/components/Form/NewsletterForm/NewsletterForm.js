@@ -9,7 +9,7 @@ const NewsletterForm = (props) => {
         <FormItem inputType="input" type="text" title="Name" required />,
         <FormItem inputType="input" type="email" title="Email" required />,
     ]
-    const title = "Want to be in the know?"
+    const title = "Want to stay in the know?"
     const subtitle = "Sign-up to our newsletter and recieve occasional updates and tips!"
 
     const submitMsgTitle = "Thanks for signing up!"
