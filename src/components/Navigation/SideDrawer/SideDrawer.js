@@ -5,7 +5,7 @@ import Aux from '../../../hoc/Aux/Aux'
 import Logo from '../../Logo/Logo'
 import NavigationItems from '../NavigationItems/NavigationItems'
 import FooterItems from '../FooterItems/FooterItems'
-import Backdrop from '../UI/Backdrop/Backdrop'
+import Backdrop from '../../UI/Backdrop/Backdrop'
 import AppStoreButton from '../../AppStoreButton/AppStoreButton'
 
 const sideDrawer = (props) => {
