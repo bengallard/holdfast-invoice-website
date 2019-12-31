@@ -2,10 +2,10 @@ import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 
 import Layout from './hoc/Layout/Layout'
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import Contact from './components/Contact/Contact'
-import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
+import Home from './components/Pages/Home/Home'
+import About from './components/Pages/About/About'
+import Contact from './components/Pages/Contact/Contact'
+import PrivacyPolicy from './components/Pages/PrivacyPolicy/PrivacyPolicy'
 
 function App() {
   return (
