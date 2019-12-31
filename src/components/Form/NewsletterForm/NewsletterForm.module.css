@@ -1,6 +1,6 @@
 .NewsletterForm {
-    width: 65%;
-    margin: 20px 10% 60px 10%;
+    width: 55%;
+    margin: 20px auto 60px 10%;
 }
 
 @media (max-width: 499px) {
