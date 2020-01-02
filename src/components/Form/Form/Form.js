@@ -3,7 +3,7 @@ import React from 'react'
 import classes from './Form.module.css'
 
 const Form = (props) => {
-    let form = <form className={classes.Form}>
+    let form = <form className={classes.Form} onSubmit={props.submitSelected}>
         <h2>{props.title}</h2>
         <h4>{props.subtitle}</h4>
         {props.items.map(formItem => formItem)}
