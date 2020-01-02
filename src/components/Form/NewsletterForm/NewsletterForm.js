@@ -2,12 +2,12 @@ import React from 'react'
 
 import classes from './NewsletterForm.module.css'
 import Form from '../Form/Form'
-import FormItem from '../Form/FormItem/FormItem'
+import FormItem from '../Form/FormInput/FormInput'
 
 const NewsletterForm = (props) => {
     let formItems = [
-        <FormItem elementType="input" type="text" title="Name" required />,
-        <FormItem elementType="input" type="email" title="Email" required />,
+        <FormItem key="name" elementType="input" type="text" title="Name" required />,
+        <FormItem key="email" elementType="input" type="email" title="Email" required />,
     ]
     const title = "Want to stay in the know?"
     const subtitle = "Sign-up to our newsletter and recieve occasional updates and tips!"

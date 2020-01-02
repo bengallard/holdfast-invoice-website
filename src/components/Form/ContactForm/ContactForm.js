@@ -2,7 +2,7 @@ import React from 'react'
 
 import classes from './ContactForm.module.css'
 import Form from '../Form/Form'
-import FormItem from '../Form/FormItem/FormItem'
+import FormItem from '../Form/FormInput/FormInput'
 
 const contactForm = (props) => {
     let formItems = [
