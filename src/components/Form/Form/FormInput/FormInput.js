@@ -7,32 +7,22 @@ const formInput = (props) => {
     switch (props.elementType) {
         case ('input'):
             inputElement = <input 
-                type={props.type} 
-                {...props.elementConfig} 
-                value={props.value}
-                onChange={props.changed} 
-                required={props.required}/>
+                {...props.config}
+                onChange={props.changed} />
             break
         case ('textarea'):
             inputElement = <textarea 
-                type={props.type} 
-                {...props.elementConfig} 
-                value={props.value}
-                onChange={props.changed} 
-                required={props.required} />
+                {...props.config} 
+                onChange={props.changed} />
             break
         default:
             inputElement = <input 
-                type={props.type} 
-                {...props.elementConfig} 
-                value={props.value}
-                onChange={props.changed} 
-                required={props.required} />
+                {...props.config} 
+                onChange={props.changed} />
     }
-
     return (
         <div className={classes.FormInput}>
-            <h5>{props.title}</h5>
+            <h5>{props.config.title}</h5>
             {inputElement}
         </div>
     )
