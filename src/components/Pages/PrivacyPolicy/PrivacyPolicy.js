@@ -104,8 +104,8 @@ const privacyPolicy = (props) => (
 
             <h3>CONTACT US</h3>
             <p>If you have any questions about this Privacy Policy, please contact us:</p>
-            <p>By email: <a href="holdfastinvoice@gmail.com">holdfastinvoice@gmail.com</a></p>
-            <p>By visiting this page on our website: <a href="https://www.holdastinvoice.com/contact-us/">https://www.holdastinvoice.com/contact-us/</a></p>
+            <p>By email: <a href="mailto:holdfastinvoice@gmail.com">holdfastinvoice@gmail.com</a></p>
+            <p>By visiting this page on our website: <a href="/contact-us/">https://www.holdastinvoice.com/contact-us/</a></p>
         </div>
         <ContactForm />
         <FooterMenu />
