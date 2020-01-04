@@ -16,7 +16,7 @@ class ContactForm extends Component {
                 elementType: 'input',
                 elementConfig: {
                     type: 'text',
-                    title: 'Name',
+                    label: 'Name',
                     placeholder: '',
                     required: true
                 },
@@ -26,7 +26,7 @@ class ContactForm extends Component {
                 elementType: 'input',
                 elementConfig: {
                     type: 'email',
-                    title: 'Email',
+                    label: 'Email',
                     placeholder: '',
                     required: true
                 },
@@ -36,7 +36,7 @@ class ContactForm extends Component {
                 elementType: 'textarea',
                 elementConfig: {
                     type: 'text',
-                    title: 'Message',
+                    label: 'Message',
                     placeholder: '',
                     required: true
                 },
@@ -83,7 +83,7 @@ class ContactForm extends Component {
             <div className={classes.ContactForm}>
                 <Form 
                     submitSelected={this.submitFormHandler}
-                    title={this.state.title} 
+                    label={this.state.title} 
                     subtitle={this.state.subtitle}
                     items={this.state.formInputs} 
                     buttonText={this.state.buttonText}

@@ -22,7 +22,7 @@ const formInput = (props) => {
     }
     return (
         <div className={classes.FormInput}>
-            <h5>{props.config.title}</h5>
+            <h5>{props.config.label}</h5>
             {inputElement}
         </div>
     )
