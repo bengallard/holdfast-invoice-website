@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ContactForm from '../../Form/ContactForm/ContactForm'
+import ContactForm from '../../../components/Form/Form'
 import FooterMenu from '../../Navigation/FooterMenu/FooterMenu'
 
 const contact = (props) => (

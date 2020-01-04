@@ -1,7 +1,7 @@
 import React from 'react'
 
 import classes from './About.module.css'
-import NewsletterForm from '../../Form/NewsletterForm/NewsletterForm'
+import NewsletterForm from '../../../containers/Form/NewsletterForm/NewsletterForm'
 import FooterMenu from '../../Navigation/FooterMenu/FooterMenu'
 
 const about = (props) => (

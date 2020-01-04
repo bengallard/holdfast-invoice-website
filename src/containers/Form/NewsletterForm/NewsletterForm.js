@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import classes from './NewsletterForm.module.css'
-import Form from '../Form/Form'
+import Form from '../../../components/Form/Form'
 import axios from '../../../axios-sign-up'
 
 class NewsletterForm extends Component {
